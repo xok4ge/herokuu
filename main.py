@@ -11,7 +11,7 @@ def main():
 
 @app.route('/')
 def face():
-    return render_template('index_read.html')
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
